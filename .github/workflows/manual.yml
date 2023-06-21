@@ -32,8 +32,11 @@ jobs:
         python-version: "3.10"   
     - name: Test with python      
       run: |
+        
+        echo " Subtraction.."
         python sub.py
-        echo "welcome all"
+        echo " addition.."
+        python add.py
 
   usingMacOS:
     runs-on: macos-latest
